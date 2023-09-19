@@ -6,7 +6,7 @@ import Youtube from "../../Images/youtube.png";
 import InputGroup from "react-bootstrap/InputGroup";
 import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
-import Logo from "../../Images/logo.png";
+import Logo from "../../Images/logo.svg";
 
 function Footer() {
   return (

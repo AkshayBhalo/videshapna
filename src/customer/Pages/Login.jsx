@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
-import Logo from "../../Images/logo.png"
+import Logo from "../../Images/logo.svg"
 
 export default function Login() {
   return (

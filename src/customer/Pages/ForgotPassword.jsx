@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import Logo from "../../Images/logo.png"
+import Logo from "../../Images/logo.svg"
 
 export default function ForgotPassword() {
   return (
