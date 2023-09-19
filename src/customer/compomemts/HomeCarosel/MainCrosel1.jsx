@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Arrow from "../../../Images/arrow.png"
 
 export default function MainCrosel1() {
   
@@ -34,7 +35,6 @@ export default function MainCrosel1() {
               Get a Visa and relocate to your dream country. <br />Begin your journey right away.
               <br />
             </p>
-            <h5 className="mt-3 text-xl text-gray-400">Evaluate the possibilities and get detailed feedback from our team.</h5>
           </div>
           <div>
             <div className="mt-8">
@@ -110,6 +110,12 @@ export default function MainCrosel1() {
               >
                 Free Assessment
               </Link>
+              <div className="arrow d-lg-block d-none animate__animated animate__backInUp animate__delay-1s">     
+              <img className="img-fluid" src={Arrow} alt="" />
+              <p className="text-xl text-sky-500 font-semibold">
+              Evaluate the possibilities and get detailed feedback from our team.
+                </p>
+              </div>
             </div>
           </div>
         </div>

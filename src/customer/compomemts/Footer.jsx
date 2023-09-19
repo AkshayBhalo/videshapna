@@ -151,7 +151,7 @@ function Footer() {
               <li className="footer-link">
                 <p>
                   Address :{" "}
-                  <a href="/">Registered address or new office address</a>{" "}
+                  <a href="/">204, 205, Titanium One, Pakwan Cross Road ,SG Heighway, Bodakdev, Ahmedabad, Gujarat, 380054</a>{" "}
                 </p>
               </li>
             </ul>
@@ -160,7 +160,7 @@ function Footer() {
         <div className="row mt-3">
           <div className="col-12 text-center border-top">
             <p className="mb-0 mt-5 text-gray-500">
-              Copyright By © Videsh Apna - 2023
+              Copyright By © EXPATNAVIGATORS SOLUTIONS LLP - 2023
             </p>
           </div>
         </div>

@@ -4,7 +4,7 @@ import Img2 from "../../Images/FAQs-cuate.png"
 
 export default function Faq() {
   return (
-    <div className=" faq-section">
+    <div className=" faq-section bg-white">
     <div className="container">
       <div className="row">
         <div className="col-12 text-center">

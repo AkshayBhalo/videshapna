@@ -52,49 +52,53 @@ export default function About() {
               </span>
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-            The VIDESHAPNA Platform is a technology-driven online platform that guarantees to speed up and simplify the immigration process for individuals, families, and businesses looking to relocate and settle in other countries.
+              The VIDESHAPNA Platform is a technology-driven online platform
+              that guarantees to speed up and simplify the immigration process
+              for individuals, families, and businesses looking to relocate and
+              settle in other countries.
             </p>
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-4 offset-lg-2 align-self-center ">
+          <div className="col-lg-4 offset-lg-1 align-self-center ">
             <div className="lg:pr-8 lg:pt-4 ">
-              <div className="lg:max-w-lg">
-                <h2 className="text-base font-semibold leading-7 text-sky-500">
+              <div className="lg:max-w-xl">
+                {/* <h2 className="text-base font-semibold leading-7 text-sky-500">
                   Lorem ipsum
-                </h2>
+                </h2> */}
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-6xl">
                   <span className="text-sky-500">Full</span> transparency
                 </p>
                 <p className="mt-3 mb-3 text-lg leading-8 text-gray-600">
-                Live dashboard that provides an overview of the entire process and every step of your application.
+                  Live dashboard that provides an overview of the entire process
+                  and every step of your application.
                 </p>
                 <ul className="nav navbar ul-line navbar-left d-flex d-inline-flex ">
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Progress 
+                      Progress
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Timeline 
+                      Timeline
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Steps 
+                      Steps
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Status updates      
+                      Status updates
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className=" col-lg-6 align-self-center mt-5 mt-lg-0 text-center">
+          <div className=" col-lg-6 offset-lg-1  align-self-center mt-5 mt-lg-0 text-center">
             <img
               src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
               alt="Product screenshot"
@@ -139,40 +143,41 @@ export default function About() {
         </div>
 
         <div className="row">
-          <div className="col-lg-5 offset-lg-1 align-self-center order-lg-last">
+          <div className="col-lg-5  align-self-center order-lg-last">
             <div className="lg:pr-8 lg:pt-4 ">
-              <div className="lg:max-w-lg">
-                <h2 className="text-base font-semibold leading-7 text-sky-500">
+              <div className="lg:max-w-xl">
+                {/* <h2 className="text-base font-semibold leading-7 text-sky-500">
                   Lorem ipsum
-                </h2>
+                </h2> */}
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-6xl">
                   <span className="text-sky-500">Guided</span> process
                 </p>
                 <p className="mt-3 mb-3 text-lg leading-8 text-gray-600">
-                Data-driven advice for each stage of your case, and our team of professionals will assist you with the proper evaluation and road map preparation for your application.
-
+                  Data-driven advice for each stage of your case, and our team
+                  of professionals will assist you with the proper evaluation
+                  and road map preparation for your application.
                 </p>
                 <ul className="nav navbar ul-line navbar-left d-flex d-inline-flex ">
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Valuable hints
+                      Valuable hints
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Guides 
+                      Guides
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Support 
+                      Support
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className=" col-lg-6 align-self-center mt-5 mt-lg-0 text-center order-lg-first">
+          <div className=" col-lg-7 align-self-center mt-5 mt-lg-0 text-center order-lg-first">
             <img
               src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
               alt="Product screenshot"
@@ -215,41 +220,43 @@ export default function About() {
         </div>
 
         <div className="row">
-          <div className="col-lg-4 offset-lg-2 align-self-center ">
-            <div className="lg:pr-8 lg:pt-4 ">
-              <div className="lg:max-w-lg">
-                <h2 className="text-base font-semibold leading-7 text-sky-500">
+          <div className="col-lg-4 offset-lg-1 align-self-center ">
+            <div className="lg:pr-6 lg:pt-4 ">
+              <div className="lg:max-w-xl">
+                {/* <h2 className="text-base font-semibold leading-7 text-sky-500">
                   Lorem ipsum
-                </h2>
+                </h2> */}
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-6xl">
                   <span className="text-sky-500">Tech-enabled</span> decisions
                 </p>
                 <p className="mt-3 mb-3 text-lg leading-8 text-gray-600">
-                No more wasting time for searching or hesitating to find the best immigration lawyer or consultant.
-A step-by-step system will assist you in quickly analysing and scoring your immigration profile at the top to achieve your goal of relocating to other countries by minimising human error.
-
+                  No more wasting time for searching or hesitating to find the
+                  best immigration lawyer or consultant. A step-by-step system
+                  will assist you in quickly analysing and scoring your
+                  immigration profile at the top to achieve your goal of
+                  relocating to other countries by minimising human error.
                 </p>
                 <ul className="nav navbar ul-line navbar-left d-flex d-inline-flex ">
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Quick solutions 
+                      Quick solutions
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Accurate assessment 
+                      Accurate assessment
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Save time and money
+                      Save time and money
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className=" col-lg-6 align-self-center mt-5 mt-lg-0 text-center">
+          <div className=" col-lg-6 offset-lg-1 align-self-center mt-5 mt-lg-0 text-center">
             <img
               src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
               alt="Product screenshot"
@@ -295,42 +302,42 @@ A step-by-step system will assist you in quickly analysing and scoring your immi
         </div>
 
         <div className="row">
-          <div className="col-lg-5 offset-lg-1 align-self-center order-lg-last">
+          <div className="col-lg-5  align-self-center order-lg-last">
             <div className="lg:pr-8 lg:pt-4 ">
-              <div className="lg:max-w-lg">
-                <h2 className="text-base font-semibold leading-7 text-sky-500">
+              <div className="lg:max-w-xl">
+                {/* <h2 className="text-base font-semibold leading-7 text-sky-500">
                   Lorem ipsum
-                </h2>
+                </h2> */}
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-6xl">
                   <span className="text-sky-500">Quality</span> and confidence
                 </p>
                 <p className="mt-3 mb-3 text-lg leading-8 text-gray-600">
-                Our expert team will help you achieve your goal of relocating to another country by providing smart suggestions, document templates, and other high-quality techniques.
-We know what works and how to approach each stage of case preparation.
-
+                  Our expert team will help you achieve your goal of relocating
+                  to another country by providing smart suggestions, document
+                  templates, and other high-quality techniques. We know what
+                  works and how to approach each stage of case preparation.
                 </p>
                 <ul className="nav navbar ul-line navbar-left d-flex d-inline-flex ">
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Assistance 
+                      Assistance
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Suggestions 
+                      Suggestions
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Quality assurance
-
+                      Quality assurance
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className=" col-lg-6 align-self-center mt-5 mt-lg-0 text-center order-lg-first">
+          <div className=" col-lg-7 align-self-center mt-5 mt-lg-0 text-center order-lg-first">
             <img
               src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
               alt="Product screenshot"
@@ -373,45 +380,46 @@ We know what works and how to approach each stage of case preparation.
         </div>
 
         <div className="row">
-          <div className="col-lg-4 offset-lg-2 align-self-center ">
+          <div className="col-lg-4 offset-lg-1 align-self-center ">
             <div className="lg:pr-8 lg:pt-4 ">
-              <div className="lg:max-w-lg">
-                <h2 className="text-base font-semibold leading-7 text-sky-500">
+              <div className="lg:max-w-xl">
+                {/* <h2 className="text-base font-semibold leading-7 text-sky-500">
                   Lorem ipsum
-                </h2>
+                </h2> */}
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-6xl">
                   <span className="text-sky-500">Peace</span> of mind
                 </p>
                 <p className="mt-3 mb-3 text-lg leading-8 text-gray-600">
-                Live notifications and status updates through chatbot, messenger, and email will keep you up to date on the status of your case. 
-
+                  Live notifications and status updates through chatbot,
+                  messenger, and email will keep you up to date on the status of
+                  your case.
                 </p>
                 <ul className="nav navbar ul-line navbar-left d-flex d-inline-flex ">
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Live updates
+                      Live updates
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Chats 
+                      Chats
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    News 
+                      News
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Staged payment 
+                      Staged payment
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className=" col-lg-6 align-self-center mt-5 mt-lg-0 text-center">
+          <div className=" col-lg-6 offset-lg-1 align-self-center mt-5 mt-lg-0 text-center">
             <img
               src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
               alt="Product screenshot"
@@ -457,46 +465,46 @@ We know what works and how to approach each stage of case preparation.
         </div>
 
         <div className="row">
-          <div className="col-lg-5 offset-lg-1 align-self-center order-lg-last">
+          <div className="col-lg-5  align-self-center order-lg-last">
             <div className="lg:pr-8 lg:pt-4 ">
-              <div className="lg:max-w-lg">
-                <h2 className="text-base font-semibold leading-7 text-sky-500">
+              <div className="lg:max-w-[100%]">
+                {/* <h2 className="text-base font-semibold leading-7 text-sky-500">
                   Lorem ipsum
-                </h2>
+                </h2> */}
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-6xl">
                   <span className="text-sky-500">100%</span> money back
                   assurance
                 </p>
                 <p className="mt-3 mb-3 text-lg leading-8 text-gray-600">
-                Fill out your immigration visa application with confidence, or get your money back. 
-
+                  Fill out your immigration visa application with confidence, or
+                  get your money back.
                 </p>
                 <ul className="nav navbar ul-line navbar-left d-flex d-inline-flex ">
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Precise evaluation
+                      Precise evaluation
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Trusted Partners 
+                      Trusted Partners
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Dispute resolution 
+                      Dispute resolution
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Smart contract
+                      Smart contract
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className=" col-lg-6 align-self-center mt-5 mt-lg-0 text-center order-lg-first">
+          <div className=" col-lg-7 align-self-center mt-5 mt-lg-0 text-center order-lg-first">
             <img
               src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
               alt="Product screenshot"
@@ -539,35 +547,34 @@ We know what works and how to approach each stage of case preparation.
         </div>
 
         <div className="row">
-          <div className="col-lg-4 offset-lg-2 align-self-center ">
+          <div className="col-lg-5 offset-lg-1 align-self-center ">
             <div className="lg:pr-8 lg:pt-4 ">
-              <div className="lg:max-w-lg">
-                <h2 className="text-base font-semibold leading-7 text-sky-500">
+              <div className="lg:max-w-[100%]">
+                {/* <h2 className="text-base font-semibold leading-7 text-sky-500">
                   Lorem ipsum
-                </h2>
+                </h2> */}
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-6xl">
                   <span className="text-sky-500">Guaranteed </span>100% customer
                   satisfaction
                 </p>
                 <p className="mt-3 mb-3 text-lg leading-8 text-gray-600">
-                We promise your complete satisfaction with our services throughout the duration of your application.
-
+                  We promise your complete satisfaction with our services
+                  throughout the duration of your application.
                 </p>
                 <ul className="nav navbar ul-line navbar-left d-flex d-inline-flex ">
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    User-friendly interface
+                      User-friendly interface
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Step-by-step guidance
+                      Step-by-step guidance
                     </a>
                   </li>
                   <li className="nav-item d-inline-flex  align-items-center mr-2 mb-2">
                     <a className="nav-link d-inline-flex" href="/">
-                    Money-back guarantee
-
+                      Money-back guarantee
                     </a>
                   </li>
                 </ul>
@@ -597,7 +604,7 @@ We know what works and how to approach each stage of case preparation.
       </div>
       <div className="col-lg-4 offset-lg-1 align-self-center ">
       <div className="lg:pr-8 lg:pt-4 ">
-            <div className="lg:max-w-lg">
+            <div className="lg:max-w-xl">
               <h2 className="text-base font-semibold leading-7 text-sky-500">Lorem ipsum</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-6xl">Full transparency</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">

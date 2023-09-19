@@ -79,7 +79,7 @@ button#headlessui-popover-button-\:r2\: {
 a.nav-link.d-inline-flex {
   border: 1px solid #e2e8f0;
   border-radius: 5px;
-  font-size: 12pt;
+  font-size: 10pt;
   color: #334155;
   background: #e2e8f0;
 }
@@ -115,7 +115,7 @@ a.nav-link.d-inline-flex {
   background: #f9f9f9;
 }
 button.accordion-button.collapsed {
-  background: #fdfdfd;
+  background: #f5f5f5;
 }
 .box-a {
   /* border: 1px solid #e5e5e5; */
@@ -547,4 +547,20 @@ ul.nav.navbar.ul-line.navbar-left.d-flex.d-inline-flex{
 }
 .hh-24{
   height: 4.5rem;
+}
+.arrow{
+  position: relative;
+}
+.arrow img{
+  width: 10%;
+  left: 207px;
+  top: -40px;
+  position: absolute;
+}
+.arrow p{
+  width: 20%;
+    text-align: center;
+    left: 200px;
+    position: absolute;
+    top: 28px;
 }

@@ -22,11 +22,11 @@ function Home() {
         <About />
         <Cta />
         <Why />
-        <How />
+        {/* <How /> */}
         <Relocated />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Faq />
-        <Blog />
+        {/* <Blog /> */}
         <Footer />
         <ScrollToTop />
     </div>
