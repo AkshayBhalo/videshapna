@@ -129,13 +129,16 @@ function Footer() {
             <h3>Info</h3>
             <ul className="links-list clearfix">
               <li className="footer-link">
-                <a href="/">Website Terms</a>
+                <Link to="/terms">Website Terms</Link>
               </li>
               <li className="footer-link">
-                <a href="/">Privacy Notice</a>
+                <Link to="/privacy-policy">Privacy Notice</Link>
               </li>
               <li className="footer-link">
-                <a href="/">Cookie Notice</a>
+                <Link href="/anti-fraud-policy">Anti Fraud Policy</Link>
+              </li>
+              <li className="footer-link">
+                <Link href="/refund">Refund Policy</Link>
               </li>
             </ul>
           </div>

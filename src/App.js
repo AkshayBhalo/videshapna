@@ -12,6 +12,10 @@ import ServicesOverview from "./customer/Pages/ServicesOverview";
 import PlatformOverview from "./customer/Pages/PlatformOverview";
 import Assessment from "./customer/Pages/Assessment";
 import Scoring from "./customer/Pages/Scoring";
+import PrivacyPolicy from "./customer/Pages/PrivacyPolicy";
+import Terms from "./customer/Pages/Terms";
+import Refund from "./customer/Pages/Refund";
+import AntiFraudPolicy from "./customer/Pages/AntiFraudPolicy";
 
 
 const router = createBrowserRouter([
@@ -69,12 +73,32 @@ const router = createBrowserRouter([
     path: "/assessment",
     element: <Assessment />,
     errorElement: <Error />,
-  }, {
+  }, 
+  {
     path: "/scoring",
     element: <Scoring />,
     errorElement: <Error />,
   },
-   
+  {
+    path: "/privacy-policy",
+    element: <PrivacyPolicy />,
+    errorElement: <Error />,
+  }, 
+  {
+    path: "/terms",
+    element: <Terms />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/refund",
+    element: <Refund />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/anti-fraud-policy",
+    element: <AntiFraudPolicy />,
+    errorElement: <AntiFraudPolicy />,
+  },
 ]);
 const App = () => {
 
